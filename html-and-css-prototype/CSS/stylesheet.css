@@ -1,42 +1,51 @@
-/* Global resets */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-body {
+.body {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	color: #424242;
 	line-height: 1.4;
 }
 
-/* Fonts */
-h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-	font-size: 2.5em;
-	font-weight: bold;
-}
 
 .container {
-	margin: 2em auto;
-	max-width: 630px;
-	text-align: center;
+	width:70%;
+margin: auto;
+border: black 1px solid;
+border-top :#EF5F3C 15px solid;
+	overflow: hidden;
+	padding-left: 20px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+
+
+
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+#header1{
+color: #fff;
+background-color: #424242;
+		text-align: center;
+		width:70%;
+		height:40px;
+	margin: auto;
+border: #424242 10x solid;
+border top:double;
+text-align: center;
+padding-top: 5px;
+		overflow: hidden;
+		font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 
-	FONTS:
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+}
 
-  COLORS:
-  blue: #20A1D4;
-  green: #1CBC2C;
-  orange: #EF5F3C;
-  black: #424242;
-  grey: #777;
-  light grey: #eaeaea;
-*/
-
-/* Your CSS code goes here */
+#footer1{
+	color: #fff;
+	background-color: #fff;
+			text-align: center;
+				color: #1CBC2C;
+				border: #fff  10px solid width 70%;
+				overflow: hidden;
+				font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+margin: auto;
